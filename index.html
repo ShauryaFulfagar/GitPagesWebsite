@@ -10,15 +10,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6c256afdc6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav>
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
+        <div class="menu">
+            <input type="checkbox" id="respMenuCheck" />
+            <div class="logo"><a href="#">YEET</a></div>
+            <ul>
+                <label class="button cancel" for="respMenuCheck"><i class="fas fa-times"></i></label>
+
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <label class="button bars" for="respMenuCheck"><i class="fas fa-bars"></i></label>
+        </div>
     </nav>
 </body>
 
