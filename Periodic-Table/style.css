@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-*{
-    font-family: 'Comfortaa', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+* {
+    font-family: "Comfortaa", sans-serif;
 }
+
 body {
     background: #101318;
     text-shadow: 0 0 0.4vw currentColor;
